@@ -1,1 +1,1 @@
-# otus-domain-api-vagrant
+# otus-api-vagrant
