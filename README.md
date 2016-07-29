@@ -2,6 +2,7 @@
 
 ## Pré Requisitos
 * [Vagrant](https://www.vagrantup.com/)
+* [Virtual Box](https://www.virtualbox.org/)
 
 ## Recursos Disponíveis
 
