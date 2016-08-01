@@ -23,6 +23,8 @@ then
 
      sed -i 's/-c $JBOSS_CONFIG $JBOSS_OPTS/-c $JBOSS_CONFIG -b 0.0.0.0 -bmanagement 0.0.0.0 $JBOSS_OPTS/g' /etc/init.d/wildfly
 
+     sudo ./wildfly/bin/add-user.sh admin admin
+
      sudo service wildfly start
 else
      echo "CHECK - Wildfly already installed"
