@@ -35,4 +35,4 @@
       * api-domain.localhost : Url que sera utilizada para acesso a VM como padrão. Customizar caso necessário.
 
 4. Realizar Deploy API
-      > $ mvn -f otus-domain-root/pom.xml clean install && mvn -f otus-domain-ear/pom wildfly:deploy -Dwildfly-hostname=api-domain.localhost
+      > $ mvn -f otus-domain-root/pom.xml clean install && mvn -f otus-domain-ear/pom.xml wildfly:deploy -Dwildfly-hostname=api-domain.localhost
